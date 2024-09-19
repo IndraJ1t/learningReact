@@ -14,6 +14,11 @@ const Header = () => {
                         About
                     </NavLink>
                 </div>
+                <div>
+                    <NavLink to="/github" className={({ isActive }) => `${isActive ? "text-orange-600" : "text-gary-800"} text-sm hover:text-orange-600 font-medium rounded-lg px-2 lg:px-3 py-2 mr-2 "focus:outline-none focus-visible:outline-2 focus-visible:outline-orange-400`}>
+                        Github
+                    </NavLink>
+                </div>
                 <div className='flex items-center lg:order-2'>
                     <Link to='/' className='text-gray-800 hover:text-orange-600 focus-visible:outline-orange-400 focus-visible:outline-2 font-medium rounded-lg text-sm px-2 py-2 mr-2 focus:outline-none'>
                         Login</Link>
