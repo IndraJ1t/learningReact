@@ -42,19 +42,3 @@ createRoot(document.getElementById('root')).render(
 //     </BrowserRouter>
 //   </StrictMode>
 // )
-
-
-// Less Optimized
-
-// createRoot(document.getElementById('root')).render(
-//   <StrictMode>
-//     <BrowserRouter>
-//       <Header />
-//       <Routes>
-//         {/* <Route path='/' element={<App />} /> */}
-//         <Route path='' element={< Home />} />
-//       </Routes>
-//       <Footer />
-//     </BrowserRouter>
-//   </StrictMode>
-// )
